@@ -25,6 +25,7 @@
         android:text="Login"
         android:textColor="@color/colorWhite"
         android:textSize="34sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="174dp" />
 
@@ -33,9 +34,17 @@
         android:layout_width="213dp"
         android:layout_height="54dp"
         android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
         android:ems="10"
+        android:hint="Username"
         android:inputType="text"
-        android:text="Name"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="Username"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
         tools:layout_editor_absoluteX="66dp"
         tools:layout_editor_absoluteY="267dp" />
 
